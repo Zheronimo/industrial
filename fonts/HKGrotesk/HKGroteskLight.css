@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HKGroteskLight';
+    src: url('fonts/HKGroteskLight.eot');
+    src: url('fonts/HKGroteskLight.eot') format('embedded-opentype'),
+         url('fonts/HKGroteskLight.woff2') format('woff2'),
+         url('fonts/HKGroteskLight.woff') format('woff'),
+         url('fonts/HKGroteskLight.ttf') format('truetype'),
+         url('fonts/HKGroteskLight.svg#HKGroteskLight') format('svg');
+}

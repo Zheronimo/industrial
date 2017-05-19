@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/HKGrotesk/HKGroteskLight.eot');
+    src: url('../fonts/HKGrotesk/HKGroteskLight.eot') format('embedded-opentype'),
+         url('../fonts/HKGrotesk/HKGroteskLight.woff2') format('woff2'),
+         url('../fonts/HKGrotesk/HKGroteskLight.woff') format('woff'),
+         url('../fonts/HKGrotesk/HKGroteskLight.ttf') format('truetype'),
+         url('../fonts/HKGrotesk/HKGroteskLight.svg#HKGroteskLight') format('svg');
+}
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/LSpartan/LeagueSpartanBold.eot');
+    src: url('../fonts/LSpartan/LeagueSpartanBold.eot') format('embedded-opentype'),
+         url('../fonts/LSpartan/LeagueSpartanBold.woff2') format('woff2'),
+         url('../fonts/LSpartan/LeagueSpartanBold.woff') format('woff'),
+         url('../fonts/LSpartan/LeagueSpartanBold.ttf') format('truetype'),
+         url('../fonts/LSpartan/LeagueSpartanBold.svg#LeagueSpartanBold') format('svg');
+}
+body {
+    background-color: #272f45;
+}
+.container {
+    margin: 0 auto;
+    width: 1160px;
+    color: #fff;
+}
+.btn { 
+   width: 160px;
+   height: 60px;
+   font-size: 24px;
+   font-family: 'Light', Area, san-serif;
+   color: #fff;
+   border: 2px solid #eec9a2;
+   background: none;
+   
+}
+/*------HEADER START--------*/
+.header {
+    margin-top: 63px;
+    margin-bottom: 53px;
+    display: flex;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.header-logo {
+    width: 294px;
+    height: 72px;
+}
+.header-search .header-search__input {
+    position: relative;
+    width: 176px;
+    padding-left: 22px;
+    font-family: 'Light';
+    font-size: 24px;
+    background-color: #272f45;
+    border: none;
+    border-bottom: 2px solid #63757e;
+}
+.header-search .header-search__input::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 23px;
+    background: url('../img/search.png') 0 0 no-repeat;
+}
+/*------HEADER END--------*/
+/*------SLIDE START--------*/
+.slide {
+    min-height: 690px;
+    margin-bottom: 40px;
+    background: url('../img/slide-bg.jpg') 0 0 no-repeat;
+}
+.slide-gina {
+    width: 361px;
+    padding-top: 50px;
+    padding-left: 59px;
+}
+.slide-gina__title {
+    font-family: 'Bold';
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+}
+.slide-gina__text {
+    font-family: 'Light';
+    font-size: 32px;
+    margin-bottom: 120px;
+}
+.slide-gina__btn:hover {
+    background-color: #252525;
+    border-color: #d1c825;
+}
+/*------BLOCKONE START--------*/
+.blockOne {
+    display: flex;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-align-items: flex-start;
+            align-items: flex-start;
+    margin-bottom: 40px;
+}
+.blockOne-item {
+    width: 560px;
+    font-size: 24px;
+}
+/*------BLOCKONE END--------*/
