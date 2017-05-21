@@ -22,6 +22,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1160px;
+    font-family: 'Light';
     color: #fff;
 }
 .btn { 
@@ -48,23 +49,36 @@ body {
     width: 294px;
     height: 72px;
 }
-.header-search .header-search__input {
-    position: relative;
-    width: 176px;
-    padding-left: 22px;
-    font-family: 'Light';
+.header-search {
+    width: 200px;
+}
+.header-search__input input {
+    width: 100%;
+    padding-left: 28px;
     font-size: 24px;
     background-color: #272f45;
     border: none;
     border-bottom: 2px solid #63757e;
 }
-.header-search .header-search__input::before {
+.header-search__input input:focus {
+    border: none;
+    color: #fff;
+}
+.header-search__input {
+    position: relative;
+}
+.header-search__input::before {
     content: '';
     position: absolute;
     display: block;
-    width: 22px;
-    height: 23px;
+    top: 5px;
+    width: 20px;
+    height: 21px;
     background: url('../img/search.png') 0 0 no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    
 }
 /*------HEADER END--------*/
 /*------SLIDE START--------*/
@@ -85,7 +99,6 @@ body {
     margin-bottom: 49px;
 }
 .slide-gina__text {
-    font-family: 'Light';
     font-size: 32px;
     margin-bottom: 120px;
 }
@@ -105,5 +118,11 @@ body {
 .blockOne-item {
     width: 560px;
     font-size: 24px;
+}
+.blockOne-item--left {
+    padding-top: 23px;
+    padding-right: 30px;
+    text-align: right;
+    background-color: #60b9a4;
 }
 /*------BLOCKONE END--------*/
