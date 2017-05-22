@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -37,30 +38,34 @@
 		</section>
 		<section class="blockOne">
 			<div class="blockOne-item">
-			<div class="blockOne-item--left">
+				<div class="blockOne-item--left">
 					<h2 class="blockOne-item__title">Beoplay A1</h2>
 					<p class="blockOne-item__text">The ultra-portable Bluetooth speaker that will travel with you anywhere</p>
 					<button class="btn">Buy</button>
 				</div>
 			</div>
-			<div class="blockOne-item right">
-				<h2 class="blockOne-item__title">Leica MP</h2>
-				<p class="blockOne-item__text">Focused technology for focused photography</p>
-				<button class="btn">Buy</button>
+			<div class="blockOne-item">
+				<div class="blockOne-item--right">
+					<h2 class="blockOne-item__title">Leica MP</h2>
+					<p class="blockOne-item__text">Focused technology for focused<br> photography</p>
+					<button class="btn">Buy</button>
+				</div>	
 			</div>
 		</section>	
 		<section class="blockTwo">
-			<div class="blockTwo-item">
+			<div class="blockTwo-item molecule">
 				<p class="blockTwo-item__text">The world’s first molecular air purifier.</p>
 				<h3 class="blockTwo-item__title">Molekule</h3>
 				<button class="btn">Details</button>
 			</div>
-			<div class="blockTwo-item">
-				<p class="blockTwo-item__text">Bowers & Wilkins</p>
-				<h3 class="blockTwo-item__title">P9 Signature</h3>
-				<button class="btn">Details</button>
+			<div class="blockTwo-item signature">
+				<div class="blockTwo-item__contant">
+					<p class="blockTwo-item__text">Bowers & Wilkins</p>
+					<h3 class="blockTwo-item__title">P9 Signature</h3>
+					<button class="btn">Details</button>
+				</div>
 			</div>
-			<div class="blockTwo-item">
+			<div class="blockTwo-item dr">
 				<p class="blockTwo-item__text">An homage to Dieter Rams</p>
 				<h3 class="blockTwo-item__title">DR-II</h3>
 				<button class="btn">Details</button>
@@ -71,9 +76,9 @@
 			<p class="newsletter-text">
 				For the latest stories, news, events, promotions and exclusive offers, sign up today. We know you get a lot of emails, but we promise... ours is the one you want.
 			</p>
-			<form action="">
+			<form class="newsletter-form" action="" method="post">
 				<input type="email" placeholder="Your email">
-				<button class="btn">Subscribe</button>
+				<input class="btn" type="submit" name="Subscribe" value="Subscribe">
 			</form>
 		</section>
 		<footer class="footer">
@@ -87,7 +92,7 @@
 				</ul>
 			</div>
 			<div class="copiright">
-				<span>© Industrial Design Magazine</span>
+				<span>© <a href="#">Eugene Kyrychenko</a></span>
 			</div>
 		</footer>
 	</div>			
