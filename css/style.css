@@ -232,7 +232,8 @@ input[type='submit'] {
 /*------FOOTER START--------*/
 .footer {
     text-align: center;
-    color: #92a1a9; 
+    color: #92a1a9;
+    margin-bottom: 40px; 
 }
 .footer-nav__item {
     display: inline-block;
